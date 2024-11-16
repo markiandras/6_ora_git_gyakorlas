@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header h1 {
+    color: green;
+    padding: 5px 5px 5px 20px;
+}
+
+nav {
+    width: 100%;
+    background-color: green;
+    height: 60px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-block: 0;
+    height: 100%;
+    padding-inline-start: 0;
+}
+
+nav ul > li {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    padding: 1rem;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.568);
+    padding-left: 2rem;
+}
+
+nav > ul > li:hover {
+    background-color: #dfdfe2;
+    color: #1b1b32;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+.karlbenz h5 {
+    color: rgb(102, 165, 6);
+    font-size: 20px;
+    font-weight: 250;
+}
