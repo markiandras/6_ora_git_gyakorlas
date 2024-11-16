@@ -1,0 +1,1 @@
+# 6_ora_git_gyakorlas
