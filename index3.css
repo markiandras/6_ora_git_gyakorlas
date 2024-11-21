@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 10px;
+    padding: 0;
+    background-color: #F8F9FA;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+header h1 {
+    color: #01786B;
+    padding: 20px 0px 5px 30px;
+    font-size: 2.1rem;
+}
+
+nav {
+    width: 100%;
+    background-color: #01786B;
+    height: 100%;
+    padding: 20px 30px;
+    display: flex;
+
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul > li {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    padding-left: 1rem;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.568);
+}
+
+nav > ul > li:hover {
+    background-color: #dfdfe2;
+    color: #1b1b32;
+    cursor: pointer;
+    border-radius: 10%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+.autok {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2px;
+    margin-top: 10px;
+}
+
+.autok img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.kep1 {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.kep2 {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.kep3 {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.kep4 {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+footer {
+    color: #01786b;
+    background-color: #F8F9FA;
+    text-align: center;
+    margin: 10px;
+    padding: auto;
+    font-size: 22px;
+}

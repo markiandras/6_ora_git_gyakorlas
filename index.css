@@ -5,52 +5,62 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    margin: 10px;
+    padding: 0;
+    background-color: #F8F9FA;
+    
+}
+
+
 header h1 {
-    color: green;
-    padding: 5px 5px 5px 20px;
+    color: #01786B;
+    padding: 20px 0px 5px 30px;
+    font-size: 2.1rem;
 }
 
 nav {
     width: 100%;
-    background-color: green;
-    height: 60px;
+    background-color: #01786B;
+    height: 100%;
+    padding: 20px 30px;
+    display: flex;
+
 }
 
 nav > ul {
     display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-block: 0;
+    justify-content: center;
+    align-items: flex-start;
     height: 100%;
-    padding-inline-start: 0;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul > li {
     text-decoration: none;
     color: white;
     list-style: none;
-    padding: 1rem;
+    padding-left: 1rem;
     font-size: 18px;
 }
 
 a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.568);
-    padding-left: 2rem;
 }
 
 nav > ul > li:hover {
     background-color: #dfdfe2;
     color: #1b1b32;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 10%;
   }
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
     padding: 0 1.5rem 0 1.5rem;
 }
 
@@ -59,9 +69,176 @@ img {
 }
 
 
+.karlbenz {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    background-color: white;
+    border: 1px solid #dfdfe2;
+    border-radius: 8px;
+    padding: 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.karlbenz-header {
+  background-color: #eeeded;
+  padding: 16px;
+  border: 1px solid #d6d6d6;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+}
 
 .karlbenz h5 {
-    color: rgb(102, 165, 6);
+    color: #01786B;
     font-size: 20px;
     font-weight: 250;
+    margin: 0;
+    text-align: left;
+} 
+
+.karlbenz img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.karlbenz-kep {
+    border: 1px solid #d6d6d6;
+    margin: 10px 25px 0 25px;
+    border-radius: 6px;
+}
+
+.karlbenzsec {
+    padding: 10px; 
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 400;
+    padding: 0 40px 0 40px;
+}
+
+.karlbenz-footer {
+    border: 1px solid #d8d8d8;
+    padding: 15px;
+    background-color: #eeeded;
+    border-radius: 0 0 8px 8px;
+}
+
+
+.henryford {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    background-color: white;
+    border: 1px solid #dfdfe2;
+    border-radius: 8px;
+    padding: 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.henryford-header {
+    background-color: #eeeded;
+  padding: 16px;
+  border: 1px solid #d6d6d6;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+}
+
+.henryford h5 {
+    color: #01786B;
+    font-size: 20px;
+    font-weight: 250; 
+    margin: 0;
+    text-align: left;
+}
+
+.henryford img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+.henryford-kep {
+    border: 1px solid #d6d6d6;
+    margin: 10px 25px 0 25px;
+    border-radius: 6px;
+}
+
+.henryfordsec {
+    padding: 10px; 
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 400;
+    padding: 0 40px 0 40px;
+}
+
+.henryford-footer {
+    border: 1px solid #d8d8d8;
+    padding: 15px;
+    background-color: #eeeded;
+    border-radius: 0 0 8px 8px;
+}
+
+.autok {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2px;
+    margin-top: 10px;
+}
+
+.autok img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.kep1 {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.kep2 {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.kep3 {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.kep4 {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+footer {
+    color: #01786b;
+    background-color: #F8F9FA;
+    text-align: center;
+    margin: 10px;
+    padding: auto;
+    font-size: 22px;
 }
