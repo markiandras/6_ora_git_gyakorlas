@@ -59,7 +59,7 @@ nav > ul > li:hover {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     padding: 0 1.5rem 0 1.5rem;
 }
@@ -242,3 +242,80 @@ footer {
     padding: auto;
     font-size: 22px;
 }
+
+@media (max-width: 768px) {
+    main {
+      grid-template-columns: 1fr 1fr; 
+      gap: 1rem;
+    }
+  
+    .karlbenz, .henryford {
+      padding: 10px;
+      grid-template-rows: auto auto 1fr; 
+    }
+  
+    .karlbenzsec, .henryfordsec {
+      padding: 0 20px; 
+      font-size: 14px; 
+    }
+  
+    header h1 {
+      font-size: 1.8rem;
+      padding: 15px;
+    }
+  
+    nav {
+      padding: 15px; 
+    }
+  
+    nav ul > li {
+      font-size: 16px;
+      padding-left: 0.5rem; 
+    }
+  
+    .autok {
+      grid-template-columns: 1fr 1fr; 
+    }
+  }
+
+
+  @media (max-width: 480px) {
+    main {
+      grid-template-columns: 1fr; 
+      gap: 0.5rem;
+    }
+  
+    .karlbenz, .henryford {
+      grid-template-rows: auto auto 1fr;
+      margin: 5px;
+    }
+  
+    header h1 {
+      font-size: 1.5rem;
+      text-align: center;
+      padding: 10px 0;
+    }
+  
+    nav ul {
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    nav ul > li {
+      font-size: 14px; 
+      padding: 5px 0;
+    }
+  
+    .karlbenzsec, .henryfordsec {
+      padding: 0 10px;
+      font-size: 12px; 
+    }
+  
+    .autok {
+      grid-template-columns: 1fr; 
+      gap: 5px;
+    }
+  }
+  
+
+  
